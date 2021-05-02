@@ -1,0 +1,17 @@
+<center>
+<mat-card id="registerCard">
+<form (submit) = "register(userRegister)" #userRegister = "ngForm">
+<mat-label style="color: #1976d2 ;">Fullname <i class="material-icons" id="fullnameIcon">account_circle</i></mat-label>
+<input type="text"  id="fullname" name="fullname" class="validate" ngModel  placeholder="Enter Name...">
+<mat-label style="color: #1976d2;">Email <i class="material-icons" id="emailIcon">email</i></mat-label>
+<input type="email"  id="email" name="email" class="validate" placeholder="Enter Email..." ngModel>
+<mat-label style="color: #1976d2;">Password <i class="material-icons" id="passwordIcon">lock_outline</i></mat-label>
+<input type="password" id="password" name="password" class="validate" placeholder="Enter Password..." ngModel required>
+<mat-label style="color: #ff1744 ;">Confirm Password <i class="material-icons" id="passwordIcon2">lock</i></mat-label>
+<input type="password" id="password2" name="password2" class="validate"  placeholder="Confirm Password..." ngModel required>
+<center>
+<button mat-raised-button type="submit" color = "primary">Sign Up</button>
+</center>
+</form>
+</mat-card>
+</center>

@@ -1,0 +1,14 @@
+#avatarImage{
+  width: 10%;
+}
+#loginCard{
+  width: 80%;
+  height: 100%;
+  margin-top: 12%;
+}
+#emailIcon{
+  vertical-align: bottom;
+}
+#passwordIcon{
+  vertical-align: bottom;
+}

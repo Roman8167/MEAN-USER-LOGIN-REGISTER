@@ -1,0 +1,15 @@
+<center>
+<mat-card id="loginCard">
+<form (submit) = "login(loginForm)" #loginForm = "ngForm">
+<mat-label style="color: #00695c ;">Email <i class="material-icons" id="emailIcon">email</i></mat-label>
+<input type="email" matInput id="email" name="email" class="validate" placeholder="Enter Email...." ngModel required>
+<br>
+<br>
+<mat-label style="color: #00695c ;">Password <i class="material-icons" id="passwordIcon">lock_open</i></mat-label>
+<input type="password" matInput id="password" name="password" class="validate" placeholder="Enter Password...." ngModel required>
+<br>
+<br>
+<button type="submit" mat-raised-button color = "primary">Login</button>
+</form>
+</mat-card>
+</center>

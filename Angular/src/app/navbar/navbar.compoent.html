@@ -1,0 +1,9 @@
+<mat-toolbar color = "primary">
+<i class="material-icons">spa</i>
+<span class="example-spacer"></span>
+<span style="color: white;margin-right: 100px;" *ngIf = "isLoggedIn">Dashboard</span>
+<a style="color: white;" *ngIf = "isLoggedIn"  (click) = "logout()">Logout</a>
+<a style="color: white;margin-right: 100px;" [routerLink] ="['/login']" *ngIf = "!isLoggedIn">Login</a>
+<a style="color: white;" [routerLink] = "['/register']" *ngIf = "!isLoggedIn">Register</a>
+</mat-toolbar>
+<router-outlet></router-outlet>

@@ -1,0 +1,13 @@
+.example-spacer{
+  flex: auto;
+}
+#loginIcon{
+  vertical-align: middle;
+}
+#registerIcon{
+  vertical-align: middle;
+}
+mat-toolbar{
+  width: 100%;
+
+}
